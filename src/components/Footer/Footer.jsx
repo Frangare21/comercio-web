@@ -1,4 +1,4 @@
-import footerLogo from "../../assets/logobd.jpeg";
+import footerLogo from "../../assets/logob.png";
 import Banner from "../../assets/website/footer.avif";
 import {
   FaFacebook,
@@ -106,7 +106,7 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Argentina, </p>
+                  <p>Argentina,CBA </p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />

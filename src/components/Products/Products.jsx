@@ -1,4 +1,3 @@
-
 import Img1 from "../../assets/women/pc2.jpeg";
 import Img2 from "../../assets/women/pc.jpeg";
 import Img3 from "../../assets/women/pc3.jpeg";
@@ -67,24 +66,24 @@ const Products = () => {
         </div>
         {/* Body section */}
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
             {/* card section */}
             {ProductsData.map((data) => (
               <div
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
                 key={data.id}
-                className="space-y-3"
+                className="space-y-3 flex flex-col items-center"
               >
                 <img
                   src={data.img}
                   alt=""
                   className="h-[220px] w-[150px] object-cover rounded-md"
                 />
-                <div>
+                <div className="text-center">
                   <h3 className="font-semibold">{data.title}</h3>
                   <p className="text-sm text-gray-600">{data.color}</p>
-                  <div className="flex items-center gap-1">
+                  <div className="flex items-center justify-center gap-1">
                     <FaStar className="text-yellow-400" />
                     <span>{data.rating}</span>
                   </div>

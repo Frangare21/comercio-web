@@ -1,7 +1,7 @@
 
-import Img1 from "../../assets/shirt/Img1.jpeg";
-import Img2 from "../../assets/shirt/img2.jpg";
-import Img3 from "../../assets/shirt/Img3.jpeg";
+import Img1 from "../../assets/shirt/Img1.png";
+import Img2 from "../../assets/shirt/img2.png";
+import Img3 from "../../assets/shirt/Img3.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
